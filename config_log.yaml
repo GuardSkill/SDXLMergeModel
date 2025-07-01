@@ -1,0 +1,116 @@
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 2
+    - path: "D:/Models/SD1.5/Realism/Deliberate_v6.safetensors"
+      weight: 4
+    - path: "D:/Models/SD1.5/Realism/realisticVisionV60B1_v60B1VAE.safetensors"
+      weight: 4
+    - path: "D:/Models/SD1.5/Realism/dreamlikePhotoreal20_dreamlikePhotoreal20.safetensors"
+      weight: 2.1
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 1.5
+    - path: "D:/Models/SD1.5/Realism/picx_10.safetensors"
+      weight: 2
+    - path: "D:/Models/SD1.5/Realism/epicphotogasm_ultimateFidelity.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/Realism/cyberrealistic_v42.safetensors"
+      weight: 0.8
+
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.16.safetensors"
+    
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 0.12
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 0.08
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 0.3
+    - path: "D:/Models/SD1.5/Realism/picx_10.safetensors"
+      weight: 0.12
+    - path: "D:/Models/SD1.5/Realism/realisticVisionV60B1_v60B1VAE.safetensors"
+      weight: 0.10
+    - path: "D:/Models/SD1.5/Realism/epicphotogasm_ultimateFidelity.safetensors"
+      weight: 0.10
+    - path: "D:/Models/SD1.5/Realism/dreamlikePhotoreal20_dreamlikePhotoreal20.safetensors"
+      weight: 0.10
+    - path: "D:/Models/SD1.5/Realism/cyberrealistic_v42.safetensors"
+      weight: 0.08
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.15.safetensors"
+    
+
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 0.12
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 0.08
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 0.6
+    - path: "D:/Models/SD1.5/Realism/picx_10.safetensors"
+      weight: 0.10
+    - path: "D:/Models/SD1.5/Realism/realisticVisionV60B1_v60B1VAE.safetensors"
+      weight: 0.10
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.14.safetensors"
+
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 0.35
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 0.25
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 0.4
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.13_1.safetensors"
+    
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 0.3
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 0.2
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 0.5
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.13.safetensors"
+
+config:
+  models:
+    - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+      weight: 0.35
+    - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+      weight: 0.3
+    - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+      weight: 0.35
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.12.safetensors"
+
+# config:
+#   models:
+#     - path: "D:/Models/SD1.5/All/DreamShaper_8_pruned.safetensors"
+#       weight: 0.25
+#     - path: "D:/Models/SD1.5/All/lyriel_v16.safetensors"
+#       weight: 0.25
+#     - path: "D:/Models/SD1.5/Realism/majicmixRealistic_v7.safetensors"
+#       weight: 0.2
+#     - path: "D:/Models/SD1.5/Realism/picx_10.safetensors"
+#       weight: 0.15
+#     - path: "D:/Models/SD1.5/Realism/realisticVisionV60B1_v60B1VAE.safetensors"
+#       weight: 0.15
+#   param:
+#     interpolation: "weighted-sum"
+#     output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Realistic_v0.1.safetensors"
+    # output_dir: "D:/Models/SD1.5/Merged"

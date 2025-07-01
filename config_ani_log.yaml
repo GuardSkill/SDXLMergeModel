@@ -1,0 +1,34 @@
+config:
+  models:
+    - path: "D:/Models/SD1.5/Anime/meinamix_meinaV11.safetensors"
+      weight: 2
+    - path: "D:/Models/SD1.5/Anime/meinapastel_v6Pastel.safetensors"
+      weight: 2
+    - path: "D:/Models/SD1.5/Anime/anything-v5-PrtRE.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/Anime/darkSushiMixMix_colorful.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/Anime/aingdiffusionV17.TbVn.safetensors"
+      weight: 0.5
+    - path: "D:/Models/SD1.5/Anime/meinahentai_v4.safetensors"
+      weight: 0.5
+      
+
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Anime_v0_15.safetensors"
+
+config:
+  models:
+    - path: "D:/Models/SD1.5/Anime/meinamix_meinaV11.safetensors"
+      weight: 3
+    - path: "D:/Models/SD1.5/Anime/meinapastel_v6Pastel.safetensors"
+      weight: 3
+    - path: "D:/Models/SD1.5/Anime/anything-v5-PrtRE.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/Anime/darkSushiMixMix_colorful.safetensors"
+      weight: 1.5
+
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/Merged/PicLumen_H1.5_Anime_v0_1.safetensors"

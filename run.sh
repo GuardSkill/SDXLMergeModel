@@ -1,0 +1,1 @@
+python checkpoint_merge.py config.yaml --interpolation weighted-sum --image_output "./" --disable_torch_compile

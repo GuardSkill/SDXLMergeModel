@@ -1,0 +1,19 @@
+config:
+  models:
+    - path: "E:/Models/SDXL/Pony/mfcgPDXL_v10.safetensors"
+      weight: 5
+    - path: "E:/Models/SDXL/Pony/ponyDiffusionV6XL_v6StartWithThisOne.safetensors"
+      weight: 4
+    - path: "E:/Models/SDXL/Pony/prefectPonyXL_v3.safetensors"
+      weight: 5
+    - path: "E:/Models/SDXL/Pony/waiANINSFWPONYXL_v90.safetensors"
+      weight: 5
+    - path: "E:/Models/SDXL/Pony/ponyPencilXL_v200.safetensors"
+      weight: 3
+    - path: "E:/Models/SDXL/Pony/mistoonAnime_ponyAlpha.safetensors"
+      weight: 3
+    - path: "E:/Models/SDXL/Pony/autismmixSDXL_autismmixPony_2.safetensors"
+      weight: 5
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/SDXL/PonyTune.safetensors"

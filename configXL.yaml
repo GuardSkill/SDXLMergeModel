@@ -1,0 +1,23 @@
+config:
+  models:
+    - path: "D:/Models/SD1.5/SDXL/zavychromaxl_v80.safetensors"
+      weight: 3
+    - path: "D:/Models/SD1.5/SDXL/realismEngineSDXL_v30VAE.safetensors"
+      weight: 4
+    - path: "D:/Models/SD1.5/SDXL/albedobaseXL_v21.safetensors"
+      weight: 1.5
+    - path: "D:/Models/SD1.5/SDXL/realvisxlV40.2z1a.safetensors"
+      weight: 3 
+    - path: "D:/Models/SD1.5/SDXL/FluentlyXL-Final_2.safetensors"
+      weight: 1.5
+    - path: "D:/Models/SD1.5/SDXL/realisticStockPhoto_v20.safetensors"
+      weight: 0.5
+    - path: "D:/Models/SD1.5/SDXL/leosamsHelloworldXL_helloworldXL70.safetensors"
+      weight: 1
+    - path: "D:/Models/SD1.5/SDXL/YFilter_SDXL_RealMix_V2.safetensors"
+      weight: 0.5
+    - path: "D:/Models/SD1.5/SDXL/Juggernaut_X_RunDiffusion.safetensors"
+      weight: 0.5
+  param:
+    interpolation: "weighted-sum"
+    output_dir: "D:/Models/SD1.5/SDXL/PicLumen_H2_Real_v0_20.safetensors"
