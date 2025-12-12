@@ -1,0 +1,24 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Diffusion Models
+diffusers>=0.21.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Model Loading & Saving
+safetensors>=0.3.1
+
+# Image Processing
+Pillow>=9.5.0
+
+# Configuration
+PyYAML>=6.0
+
+# Numerical Computing
+numpy>=1.24.0
+
+# Optional but recommended for performance
+# xformers>=0.0.20  # Uncomment for memory-efficient attention (requires separate installation)
+# triton>=2.0.0     # Uncomment for torch.compile optimization on supported platforms
